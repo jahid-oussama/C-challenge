@@ -12,17 +12,17 @@ int main()
 	
 	printf("this is your temperature in Celsius : %lf",Celsius);
 	
-	if(20<Celsius && Celsius<30)
+	if(20<=Celsius && Celsius<30)
 	{
 		printf("\n The weather is hot ");
 	}
 	
-	else if(30<Celsius && Celsius<50)
+	else if(30<=Celsius && Celsius<50)
 	{
 		printf("\n The weather is very hot");
 	}
 	
-	else if(0<Celsius && Celsius<20)
+	else if(0<=Celsius && Celsius<20)
 	{
 		printf("\n The weather is cold");
 	}
