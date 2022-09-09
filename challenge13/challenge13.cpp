@@ -6,6 +6,6 @@ int main()
 	printf("hello, give your number : ");
 	
 	scanf("%d",&x);
-	printf("the number %d in hexadicemal is %x",x,x);
+	printf("the number %d in hexadicemal is : %x \nthe number %d in octal is : %o ",x,x,x,x);
 	
 }
